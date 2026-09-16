@@ -27,7 +27,7 @@ function App() {
             </p>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-10">
-              <a href="CV Kenneth Matthew.pdf" className="inline-flex items-center gap-2 bg-[#4f8dff] hover:bg-[#3f7bef] text-white py-3 px-5 rounded-full text-[0.9rem] font-bold transition-colors">
+              <a href="/CV Kenneth Matthew.pdf" download="CV_Kenneth_Matthew.pdf" className="inline-flex items-center gap-2 bg-[#4f8dff] hover:bg-[#3f7bef] text-white py-3 px-5 rounded-full text-[0.9rem] font-bold transition-colors">
                 Download CV <svg viewBox="0 0 24 24" fill="none" stroke="#fff" className="w-[15px] h-[15px]" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16" /></svg>
               </a>
               <a href="#projects" className="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 text-[#eef0f4] border border-white/10 py-3 px-5 rounded-full text-[0.9rem] font-bold transition-colors">
