@@ -11,9 +11,9 @@ function App() {
         <div className="hero-box bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-[32px] p-8 lg:p-12 grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-10 lg:gap-12 items-center">
 
           <div className="order-2 lg:order-1 animate__animated animate__fadeInUp animate__delay-3s text-center lg:text-left flex flex-col items-center lg:items-start">
-            <div className="inline-flex items-center gap-2.5 bg-white/5 border border-white/10 rounded-full py-2 px-4 text-[0.82rem] font-semibold text-[#9aa0ac] mb-6">
-              <svg viewBox="0 0 24 24" fill="none" className="w-[15px] h-[15px] stroke-[#4f8dff] shrink-0" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="14" rx="2" /><path d="M3 8h18" /></svg>
-              "Testing leads to failure, and failure leads to understanding"
+            <div className="flex sm:inline-flex items-center sm:items-start gap-2.5 bg-white/5 border border-white/10 rounded-2xl sm:rounded-full py-2.5 sm:py-2 px-4 sm:px-4 text-[0.75rem] sm:text-[0.82rem] font-semibold text-[#9aa0ac] mb-6 w-full sm:w-auto">
+              <svg viewBox="0 0 24 24" fill="none" className="w-[15px] h-[15px] stroke-[#4f8dff] shrink-0 mt-0.5 sm:mt-0" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="14" rx="2" /><path d="M3 8h18" /></svg>
+              <span className="leading-snug sm:leading-normal">"Testing leads to failure, and failure leads to understanding"</span>
             </div>
 
             <h1 className="text-[2.4rem] md:text-[3rem] font-extrabold leading-[1.15] tracking-tight mb-5">

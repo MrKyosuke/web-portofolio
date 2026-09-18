@@ -18,9 +18,9 @@ const Navbar = () => {
     }, []);
 
   return (
-    <div className="navbar py-7 flex items-center justify-between">
+    <div className="navbar py-7 flex items-center justify-center md:justify-between w-full">
         <div className="logo">
-            <h1 className="text-3xl font-bold bg-white text-black p-1 md:bg-transparent md:text-blue-400">MyPortofolio</h1>
+            <h1 className="text-3xl font-bold text-blue-400">MyPortofolio</h1>
         </div>
         <ul 
         className={`menu flex items-center justify-center sm:gap-8 gap-2.5 md:static fixed left-1/2 
