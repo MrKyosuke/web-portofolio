@@ -178,3 +178,29 @@ export const listProyek = [
     dad: "800",
   },
 ];
+
+export const listExperience = [
+  {
+    id: 1,
+    role: "Software Engineer",
+    company: "WZ Technology",
+    date: "December 2025 - June 2026",
+    points: [
+      "Delivered the Budgeting sub-feature within a Fintech Management application used by GA, Finance & Supplier teams, enabling users to view uploaded Excel-based budgeting lists, export data to CSV, and receive cell-level validation feedback with error messages for invalid upload entries. Built fullstack using Docker, SQLyog, Yii Framework, JS, and PHP.",
+      "Built a mobile version of the web application from scratch, covering 3 main pages: Dashboard (data summary & notifications), Request Page (approval workflow with role-based access controlled by the Backend team), and Profile (theme settings, cache clearing, logout). Worked as Frontend developer using Expo, React Native, TypeScript, JS, and Firebase API."
+    ],
+    delay: "300"
+  },
+  {
+    id: 2,
+    role: "Business Analyst",
+    company: "PT Bank Central Asia",
+    date: "February 2024 - February 2025",
+    points: [
+      "Designing Functional Flows for multiple projects to ensure clear communication of the requirements and expected system behaviours.",
+      "Designing User Flows to visually represent the end-user experience to ensure that the application process would align well with the business needs.",
+      "Iterating mockups based on multiple feedbacks given by the stakeholders, vendors and product managers to ensure alignment with business objectives."
+    ],
+    delay: "400"
+  }
+];
